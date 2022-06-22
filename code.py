@@ -2,7 +2,7 @@
 
 ## EX:   data = [0xFA, 0x6D, 0xB6] you data need be -> data = [250, 109, 182]
 
-## this code use a poly = 0x1021, you can change for you poly
+## this code use a poly = 0x1021, you can change for your poly
 
 def crc16(data):
     crc = 0xFFFF
